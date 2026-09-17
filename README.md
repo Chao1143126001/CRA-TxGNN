@@ -1,6 +1,6 @@
 # CRA-augmented TxGNN
 
-This is a code sample from my colorectal adenoma (CRA) drug-repurposing project. I wanted to test whether cell-state information from single-cell RNA-seq could add useful context to the TxGNN knowledge graph.
+This is a code sample from my colorectal adenoma (CRA) drug-repurposing project. I wanted to test whether disease state-cell type information from single-cell RNA-seq could add useful context to the TxGNN knowledge graph.
 
 The workflow filters differential-expression results, maps genes to existing knowledge-graph nodes, incorporates CRA state- and cell-type-specific relationships, and compares the original and augmented graphs under the same training settings.
 
