@@ -1,0 +1,25 @@
+# Large, sensitive, or reproducible-from-source files
+data/*
+!data/.gitkeep
+outputs/
+metadata/*.csv
+!metadata/.gitkeep
+*.h5ad
+*.h5
+*.pt
+*.pkl
+*.bin
+*.zip
+*.tar.gz
+
+# Python/Jupyter artefacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS/editor artefacts
+.DS_Store
+Thumbs.db
+.vscode/
